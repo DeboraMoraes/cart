@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+.App {
+    text-align: center;
+    background-color: #141414;
+    opacity: 1;
+}
+
+.container {
+    padding: 0 20px 20px;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    column-gap: 10px;
+    row-gap: 20px;
+    justify-content: space-evenly;
+}
+
+.cartInfo {
+    text-align: start;
+}
+
+.products img {
+    width: 70%;
+}
+
+.cartProduct {
+    display: flex;
+}
+
+.clearbtn {
+    text-align: end;
+    padding: 15px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Remove {
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.cartImg {
+    width: 20%;
+}
+
+.product {
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-style: italic;
+}
+
+button {
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.MeuCarrinho {
+    margin: 60px 15%;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.Cart {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.ClearCart {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #E40101;
+    border-radius: 5px;
+    color: white;
+}
+
+.icone {
+    width: 50%;
+}
+
+.finish {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 30%;
+    color: white;
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+}
+
+.addToCart {
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    background-color: #E40101;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header {
+    background-color: #E40101;
+    height: 70px;
+    padding-top: 20px;
+    text-align: end;
+}
+
+.navigators {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Quantities {
+    display: flex;
+    justify-content: space-around;
+}
+
+.LessProduct {
+    color: #E40101;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+}
+
+.MoreProduct {
+    color: green;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+}
+
+.ProductQuantity {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
